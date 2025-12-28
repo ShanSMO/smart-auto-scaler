@@ -54,7 +54,6 @@ class DQNNetwork(nn.Module):
 
 
 class DQNAgent:
-    """DQN Agent for Pod Resource Scaling - Inference Only"""
     
     def __init__(self, state_size: int = 8, action_size: int = 9, 
                  learning_rate: float = 0.001, gamma: float = 0.95):
